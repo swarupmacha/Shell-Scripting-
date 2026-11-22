@@ -12,6 +12,7 @@ validate(){
         echo "$2 .... Failure"
     else 
         echo "$2 ..... success"
+    fi
 }
 
 echo "installing nginx"
