@@ -1,6 +1,6 @@
 set -e
 
-trap 'echo "there is error at LINEND, COMMAND: $BASHCOMMAND"' ERR
+trap 'echo "there is error at LINENO, COMMAND: $BASH_COMMAND"' ERR
 
 echo "Hello world"
 echoo "bye"
