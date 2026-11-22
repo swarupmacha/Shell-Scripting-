@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "enter the number"
-read $NUMBER
+read NUMBER
 
 # -gt -> greater than
 # -lt -> less than 
