@@ -26,6 +26,6 @@ do
         dnf install $package -y  &>> LOGS_FILE # sh 13.loop.sh nginx mysql 
         validate $? "$package installtion"
     else 
-        echo "$package is already installed, skipping"
+        echo "$package is already installed,skipping"
     fi
 done
