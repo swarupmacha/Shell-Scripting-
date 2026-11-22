@@ -5,4 +5,4 @@ echo "sum is $SUM"
 
 #array
 FRUITS=("Apple" "Banana" "carrot")
-echo "fruits are: ${FRUITS[@]}
+echo "fruits are: ${FRUITS[@]}"
