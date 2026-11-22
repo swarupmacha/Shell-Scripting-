@@ -22,4 +22,4 @@ dnf install nginx -y &>> $LOGS_FILE
 validate $? "Nginx Installation"
 
 dnf install mysql -y &>> $LOGS_FILE
-validate $? "Nginx Installation"
+validate $? "MYSQLmmk Installation"
