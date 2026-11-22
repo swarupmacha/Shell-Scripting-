@@ -1,6 +1,7 @@
 #!/bin/bash
 
-NUMBER=25
+echo "enter the number"
+read $NUMBER
 
 # -gt -> greater than
 # -lt -> less than 
